@@ -1,15 +1,4 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyD7PInxIQmMprGii1Lp3RbydnRMMmLAc5g",
-  authDomain: "wellness-record-4c914.firebaseapp.com",
-  projectId: "wellness-record-4c914",
-  storageBucket: "wellness-record-4c914.firebasestorage.app",
-  messagingSenderId: "xxxxxxxx",
-  appId: "xxxxxxxx"
-};
-
-const app = initializeApp(firebaseConfig);
-
-export const db = getFirestore(app);
+body {
+  margin: 0;
+  background: #f7f1ea;
+}
